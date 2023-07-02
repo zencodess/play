@@ -12,10 +12,6 @@
 #	If matrix[i][j] is False, remove any redundant edges on the path from i to j, thereby removing the path from i to j. 
 # Below is the program to remove unnecessary connections of nodes, given existing connections and expected golden connections
 
-# Scope for extension and discussion - Revealing, 
-#   (1) how I can frame data and read into set of trees, given input connectivity in a high level config file
-#   (2) how I can write valid tree connections left, into usable format for customers
-
 
 import logging
 logging.basicConfig(level=logging.INFO)
