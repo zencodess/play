@@ -18,6 +18,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 class Node:
+  ''' Class to represent Multi-nary tree Node '''
   def __init__(self, nodeData, children=[]):
     self.data = nodeData
     self.children = children
@@ -27,7 +28,8 @@ class Node:
     self.children.append(childNode)
   
   
-class Tree:
+class Tree:  
+  ''' Generic tree class'''
   def __init__(self, root):
     self.root = root
     
